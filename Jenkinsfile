@@ -17,7 +17,7 @@ pipeline{
             }
             post {
                 always {
-                    echo 'Build and Test stage completed.'
+                    echo 'Build and Test stage completed and Webhook configured.'
                 }
             }
         
